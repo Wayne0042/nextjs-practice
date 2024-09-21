@@ -1,24 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
-First, run the development server with docker:
+* Install makefile
+* [Install Docker Engine](https://docs.docker.com/engine/install/)
+    * permission denied issue
+        * [Linux post-installation steps for Docker Engine](https://docs.docker.com/engine/install/linux-postinstall/)
 
-```bash
-sudo docker compose up -d --build
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* start dev server
+    * `make start-dev`
+    * Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* stop dev server
+    * `make stop-dev`
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-
-close the development server
-```bash
-sudo docker compose down
-```
 
 ## Learn More
 
