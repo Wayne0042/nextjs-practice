@@ -1,0 +1,6 @@
+npm-debug.log
+.git
+Dockerfile
+.next
+node_modules
+next-env.d.ts
